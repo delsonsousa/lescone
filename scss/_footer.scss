@@ -1,0 +1,19 @@
+.footer {
+  width: 100%;
+  padding: 25px 0;
+  background: $cor-tipografia-primaria;
+  @include box-shadow(0 0 0 10px $cor-tipografia-primaria);
+  p {
+    color: $cor-primaria;
+    @include d(s){
+      text-align: center;
+    }
+  }
+  a img {
+    float: right;
+    @include d(s){
+      float: none;
+      margin: 20px auto;
+    }
+  }
+}
